@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+ 
+
+
+
+
+
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    transform: translateY(5); /* Start and end at the original position */
+  }
+  70% {
+    transform: translateY(20px); /* Move down by 100px */
+  }
+}
+
+.img-3 {
+  background-image: url("https://itcroctheme.com/nocimon/nocimon-html/assets/img/resource/page-header-img.png");
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-position: center; /* Centers the image in the container */
+  background-repeat: no-repeat; /* Prevents repeating the image */
+  background-color: rgba(6, 6, 6, 0.433); /* Sets a background color in case the image doesn't cover the entire element */
+  height: 50vh; /* Full viewport height */
+  width: 50vw; /* Full viewport width */
+  display: flex; /* Use Flexbox to center content */
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+  padding: 20px; /* Adjust padding as needed */
+  margin-left: 20rem;
+  animation: MoveUpDown 20s linear infinite; /* Apply the animation */
+  position: relative; /* Required for 'bottom' positioning if used; 'relative' or 'absolute' is needed for the effect */
+  top: -21px;
+
+}
+
+
+.img-3 {
+
+    background-image: url("https://itcroctheme.com/nocimon/nocimon-html/assets/img/resource/page-header-img.png");
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image in the container */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    background-color: black; /* Sets a background color in case the image doesn't cover the entire element */
+    height: 50vh; /* Full viewport height */
+    width: 50vw; /* Full viewport width */
+    display: flex; /* Use Flexbox to center content */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    padding: 20px; /* Adjust padding as needed */
+margin-left: 20rem;
+animation: MoveUpDown 5s linear infinite;
+
+  }
+  
+  
+  .fimg{
+    background-color: black;
+    justify-content: center;
+    padding-top:8rem;
+
+  }
+
+  /* Responsive adjustments */
+@media (max-width: 1200px) {
+  .img-3 {
+    width: 60vw; /* Adjust width for medium screens */
+    height: 40vh; /* Adjust height for medium screens */
+    margin-left: 10rem; /* Adjust margin for medium screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .img-3 {
+    width: 80vw; /* Adjust width for smaller screens */
+    height: 30vh; /* Adjust height for smaller screens */
+    margin-left: 5rem; /* Adjust margin for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .img-3 {
+    width: 90vw; /* Adjust width for mobile screens */
+    height: 25vh; /* Adjust height for mobile screens */
+    margin-left: 0; /* Remove margin for mobile screens */
+    padding: 10px; /* Adjust padding for mobile screens */
+  }
+
+  .fimg {
+    padding-top: 4rem; /* Adjust top padding for mobile screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .img-3 {
+    width: 100vw; /* Full width for very small screens */
+    height: 20vh; /* Adjust height for very small screens */
+  }
+}
+.fimg h2{
+  font:38px,Rajdhani,sans-serif;
+  color:#FFFFFF;
+}
+
+/* styles/Form.css */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.submit-btn {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon {
+  width: 40px; /* Adjust the size of the icons */
+  height: auto;
+  margin-bottom: 15px; /* Space between icons */
+}
+
+.insta {
+  margin: 20px 0; /* Space between the lines and the icons */
+}
+
+@media (max-width: 768px) {
+  .social-icon {
+    width: 30px; /* Smaller size for mobile */
+  }
+}
+
+
+
+
+
+
+.image-container {
+  display: flex;
+  flex-direction: column; /* Stack images vertically */
+  align-items: center; /* Center images horizontally */
+  gap: 20px; /* Space between images */
+}
+
+.image-item {
+  max-width: 100px; /* Adjust width as needed */
+  height: auto;
+}
+.insta img{
+  height:3rem;
+  width:2.5rem;
+  
+}
+.submit-btn{
+  width:10rem;
+  height:4rem;
+}
+.us{
+  color:#1037B6;
+  Font:18px Rajdhani,sans-serif;
+  font-weight:bold;
+}
+.et{
+  color:#121212;
+  font:38px Rajdhani,sans-serif;
+  font-weight:bold
+}
+.bxe{
+  background-color: orange;
+}
+.log img{
+  height: 3rem;
+  width:3rem;
+}
+.add{
+  font:18px Rajdhani,sans-serif;
+  color:#121212;
+  font-weight:1000;
+}
+.sent{
+  color:#121212;
+  font:15px Rubik,sans-serif;
+  margin: 1rem;;
+
+}
+.vertical-line {
+  width: 1px;
+  height: 100px; 
+  background-color: #000; 
+  margin: 0 auto;
+}
+
+.image-container {
+  margin: 20px 0; 
+}
+
+.social-icon {
+  width: 50px; 
+  height: 40px;
+}
+
+

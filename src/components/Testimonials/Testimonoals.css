@@ -1,0 +1,36 @@
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px; /* Adjusts the space between elements */
+}
+
+.review-image {
+  max-width: 150px; /* Adjust size as needed */
+  height: auto;
+}
+
+.divider {
+  height: 100%;
+  width: 5px;
+  background-color: #000; /* Change color if needed */
+  margin: 0 10px; /* Adjust space around the line */
+}
+
+.review-text {
+  flex: 1; /* Ensures the text takes up available space */
+  margin: 0;
+}
+.sharp{
+  color:orangered;
+  size:2px;
+}
+.rev{
+  font:16px Rubik,sans-serif;
+  color:#616670;
+  gap:2rem;
+
+
+}
+
+

@@ -1,0 +1,100 @@
+.news{
+  margin-top: 4rem;;
+}
+
+
+
+
+
+
+
+.container-fluid {
+  padding: 20px;
+}
+
+h4, h2 {
+  margin: 10px 0;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+}
+
+.col-lg-8, .col-lg-4 {
+  padding: 15px;
+}
+
+.col-lg-8 img {
+  width: 100%;
+  height: auto; 
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.content-image {
+  width: 100px; 
+  height: 100px;
+  object-fit: cover; 
+  margin-right: 15px;
+}
+
+.content-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-data h4 {
+  margin-top: 0;
+}
+
+.bt {
+  background-color: blue; /* Change this to your desired background color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  padding: 10px ; /* Padding for the button */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline from the text */
+  display: inline-block; /* Keep it inline */
+  font-size: 16px; /* Font size */
+  height:3.5rem;
+  width:8rem;
+
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.bt .arrow {
+  margin-left: 5px; /* Space between text and arrow */
+}
+
+.bt:hover {
+  background-color: orange; /* Darker shade on hover */
+}
+.Unlock{
+  color:#1037B6;
+  Font:25px Rajdhani,sans-serif;
+}
+.poten {
+  color:black;
+  Font:38px Rajdhani,sans-serif;
+}
+.manage{
+  color:black;
+  Font:32px Rajdhani,sans-serif;
+  font-weight:bold;
+}
+.arrow-buttonpn{
+  height:3rem;
+  width:10rem;
+}
+

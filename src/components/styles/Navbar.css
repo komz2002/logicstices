@@ -1,0 +1,102 @@
+/* General styles */
+.head {
+    background-color:blue;
+    padding: 10px 0;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color:white;
+  }
+  
+  .main2 {
+    padding: 10px 0;
+  }
+  
+  .social-icon {
+    color:white;
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  
+  .navbar-logo {
+    width: 150px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 991px) {
+    .info {
+      display: none;
+    }
+  
+    .main2 {
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-logo {
+      width: 120px;
+    }
+  }
+  .navi{
+    font:16px Rubik,sans-serif;
+    color:black;
+    font-weight: 700;
+
+
+  }
+  #basic-nav-dropdown navp{
+    font:25px Rubik,sans-serif;
+    color:black;
+    font-weight: 700;
+
+
+  }
+
+
+  /* styles/Navbar.css */
+.bg-body-tertiary {
+  background-color: #f8f9fa; /* Set background color */
+  height: 70px; /* Set a fixed height */
+  display: flex;
+  align-items: center; 
+}
+
+.navbar-logo {
+  max-height: 60px; 
+}
+
+.navi {
+  font-size: 16px; 
+  padding: 0 15px; 
+  display: flex;
+  align-items: center; 
+}
+
+.navp .dropdown-menu {
+  margin-top: 0; 
+  padding: 0;
+}
+
+.navbar-toggler {
+  border: none; 
+}
+.shell{
+  font:20px Rubik,sans-serif;
+  color:black;
+}
+
+
+
+
+
+
+
+
+
+  

@@ -1,0 +1,79 @@
+.new {
+  padding: 40px 0;
+}
+
+.our{
+  font-size: 1.5rem;
+  color:#1037B6;
+  font:18px Rajdhani,sans-serif;
+  font-weight:bold;
+}
+.eff{
+  color:black;
+  font:50px Rajdhani,sans-serif;
+  font-weight:bolder;
+
+}
+.esta {
+font-weight:bold;
+  margin-top: 10px;
+  font:25px Rubik,sans-serif;
+  color:#616670;
+}
+
+.image-wrapper {
+  overflow: hidden;
+  width: 90%; 
+  margin: 0 auto;
+
+  }
+
+.hover-effect {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.hover-effect:hover {
+  transform: scale(1.05);
+
+}
+
+.press{
+  font:24px Rajdhani,sans-serif;
+
+}
+.isl {
+font:16px Rubik,sans-serif;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+.btl {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  width:10rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font:16px Rajdhani,sans-serif;
+}
+.btl:hover {
+  background-color: #0056b3;
+}
+@media (max-width: 768px) {
+  .our, .eff {
+    font-size: 1.2rem;
+  }
+  .Ex {
+    font-size: 1.1rem;
+  }
+  .isl {
+    font-size: 0.9rem;
+  }
+}
+
+.arrow-buttonp{
+  height:4rem;
+  width:10rem;
+}

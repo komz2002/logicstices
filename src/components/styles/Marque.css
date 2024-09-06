@@ -1,0 +1,45 @@
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 10px 0;
+  margin-top: 4rem;
+}
+
+.marquee {
+  display: flex;
+  align-items: center;
+  white-space: nowrap; 
+  animation: marquee 20s linear infinite;
+}
+
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+
+.marquee h4 {
+  margin: 0; 
+  font-size: 20px; 
+  display: flex;
+  align-items: center;
+}
+
+
+.el {
+  margin: 0 10px; 
+  width: 20px;
+  height: 20px;
+
+}
+.drive{
+  font:16px Rubik,sans-serif;
+}
+.real{
+  font:50px Rajdhani,sans-serif;
+  color:black;
+  font-weight: 800;
+}

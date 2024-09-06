@@ -1,0 +1,101 @@
+.web{
+  font:16px Rubik,sans-serif;
+  color:#616670;
+
+}
+.connect{
+  color:#121212;
+  font:32px Rajdhani,sans-serif;
+  font-weight:bolder;
+}
+.aliq{
+  color:#616670;
+  font:16px Rubik,sans-serif;
+}
+.tton{
+  height:5rem;
+  width:5rem;
+  background-color: aliceblue;
+  color:#121212;
+  margin-top:3rem;
+  font:18px Rubik,sans-serif;
+  font-weight:500;
+}
+
+
+.img-zoom-container img {
+  transition: transform 0.3s ease; 
+}
+
+.img-zoom-container img:hover {
+  transform: scale(1.1); 
+}
+
+
+
+.content-section {
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.web {
+  font-size: 1rem;
+}
+
+.connect {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.aliq {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.read-more-btn {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .web {
+    font-size: 0.9rem;
+  }
+}
+
+  .connect {
+    font-size: 1.1rem;
+  }
+
+  .aliq {
+    font-size: 0.9rem;
+  }
+
+  .read-more-btn {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .read-more-btn {
+      width: auto;
+    }
+  }
+  .asset{
+    width: 100px;
+
+    
+  }
+  .ril{
+    color:#616670;
+    font:16px Rubik,sans-serif;
+    gap:2rem;
+
+  }
+  .rol{
+    color:#121212;
+    font:25px Rubik,sans-serif;
+  }

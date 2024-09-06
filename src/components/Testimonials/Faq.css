@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+ 
+
+.fact{
+  color:#616670;
+  font:16px Rubik,sans-serif;
+}
+
+
+
+.faq{
+  color:blue;
+  font:18px Rajdhani,sans-serif;
+}
+.dis{
+  color:black;
+  font:38px Rajdhani,sans-serif;
+font-weight:1000;
+
+}
+

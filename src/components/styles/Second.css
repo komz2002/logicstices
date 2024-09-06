@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+ 
+.pos{
+    margin-top:10rem;
+}
+
+.latest{
+    color:#1037B6;
+    Font: 20px Rajdhani, sans-serif;
+    font-weight:bold;
+}
+.logis{
+    font:38px Rajdhani, sans-serif;
+    color:black;
+    font-weight: 1000;
+
+}
+
+
+
+.position-relative {
+    position: relative;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .arrow-button {
+    position: absolute;
+    top: 30%;
+    right: 10px;
+    height:3rem;
+    width:3rem;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .arrow-button:hover {
+    background-color: #0056b3;
+  }
+  .boat{
+    height:5rem;
+    width:5rem;
+
+  }
+  .swi{
+    color:black;
+    font:32px Rajdhani,Sans-serif;
+    font-weight:bold;
+  }
+  .kom{
+    color:#616670;
+    font:16px Rubik,sans-serif;
+  }
+
+
+  

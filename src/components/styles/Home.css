@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.smart {
+  margin-top: 5rem;
+  color: #1037B6;
+  font-size: 20px;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  padding: 20px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: column-reverse; 
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.flex-col {
+  flex: 1;
+}
+
+.text-content {
+  text-align: center;
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .flex-row {
+    flex-direction: row; 
+    align-items: center;
+  }
+
+  .text-content {
+    text-align: left;
+  }
+}
+
+.stream {
+  color: #121212;
+  font-size: 68px;
+  font: 70px Rajdhani,sans-serif;
+  font-weight:bold;
+}
+
+.we {
+  color: #616670;
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.btn {
+  background-color: #F68B21;
+  color: white;
+  height: 4rem;
+  width: 18rem;
+  margin-top: 2rem;
+  font-size: larger;
+}
+
+.btn:hover {
+  background-color: blue;
+  color: white;
+}
+
+.left-corner-img {
+  max-width: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -50%);
+}
+
+.shape-img {
+  top: 10%;
+  left: 10%;
+}
+
+.main-banner-img {
+  border-radius: 16% 100% 0% 100% / 0% 0% 10% 100%;
+}
+
+@media (max-width: 768px) {
+  .text-content h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .we {
+    text-align: center;
+  }
+
+  .btn-primary {
+    width: 100%;
+  }
+
+  .image-content {
+    text-align: center;
+  }
+
+  .left-corner-img {
+    max-width: 60px;
+  }
+
+  .shape-img {
+    top: 5%;
+    left: 5%;
+  }
+}
+@media (max-width:800px){
+  .touch button{
+    height:4rem;
+    width:7rem;
+  }
+}
+
+@media(max-width:1200px){
+  .stream{
+    font-size:50px;
+
+}
+}
+
+
+
+
+

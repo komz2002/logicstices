@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+ 
+
+
+.card-body-overlay-half {
+  position: absolute;
+  bottom: -5%; /* Position the box so that half of it is outside the image */
+  left: 0;
+  width: 90%;
+  height:100%;
+  background-color:white; /* Semi-transparent black background */
+  color: black; /* Text color */
+  padding: 20px; /* Padding around the text */
+  transform: translateY(50%); /* Adjust for the height of the text box */
+  box-sizing: border-box;
+  border:1px orange solid;
+  border-radius:5%;
+}
+.service{
+  margin-bottom: 10rem;
+}
+.truck{
+  font-size: 4rem;
+  color:azure;
+  background-color: orange;
+
+}
+.truck:hover {
+  transform: scaleX(-1); /* Flips the icon horizontally */
+  background-color: #121212;
+}
+
+
+
+
+
+.kom{
+  margin-right: 0%;
+  margin-left: 11%;
+
+}
+@media(max-width:1000px){
+  .kom{
+  align-items: center;
+  margin-left: 0%;
+  margin-right: 0%;
+  }
+}
+
+
+
+.ask{
+  color:blue;
+  font:18px Rajdhani,sans-serif;
+}
+.cloud{
+  color:#121212;
+  font:38px Rajdhani,sans-serif;
+  font-weight:700;
+  margin-bottom: 3rem;
+}
+.com{
+  font:19px Rubik,sans-serif;
+  color:#616670;
+}
+.ar h3{
+  color:#121212;
+  font:18px Rajdhani,sans-serif;
+  font-weight: 700;
+}
+.ar:hover h3{
+  color:orange;
+}
+.num{
+  font:32px Rajdhani,sans-serif;
+
+}
+
+.accordion .accordion-item {
+  border: none; 
+}
+
+.accordion .accordion-header {
+  border-bottom: 1px solid #00000056;  
+}
+
+.accordion .accordion-body {
+  border-top: none;
+}
+.accordion:hover{
+  color:orange;
+}
+.made{
+  color:blue;
+  font:18px Rajdhani, sans-serif;
+}
+.mad{
+  color:black;
+  font:38px Rajdhani,sans-serrif;
+}
+.dum{
+  color:#121212;
+  Font:24px Rajdhani,sans-serif;
+
+}
+.dum:hover{
+  color:orange;
+}
+
+

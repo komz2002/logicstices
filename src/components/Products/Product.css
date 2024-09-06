@@ -1,0 +1,36 @@
+.Recent{
+  color:blue;
+  font:18px Rajdhani,sans-serif;
+
+
+}
+.visi{
+  color:black;
+  font:38px Rajdhani,sans-serif;
+  font-weight: 700;
+}
+.bts{
+  color:blue;
+  height:5rem;
+  width:12rem;
+  font-size:100%;
+  border-radius: 5%;
+}
+.bts:hover{
+background-color:orange;
+}
+
+.pro{
+  color:black;
+  font:50px Rajdhani,sans-serif;
+  font-weight: 700;
+}
+
+
+@media (max-width:400px){
+  .spaces .bts{
+    margin-right: 3rem;
+
+   
+  }
+}

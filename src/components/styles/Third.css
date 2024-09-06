@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+.cold{
+    font:38px Rajdhani, sans-serif;
+    color:black;
+}
+.del{
+    font:40px Rubik,sans-serif;
+    
+
+}
+.thirdi{
+    margin-top: 5rem;
+}
+.thirdi h4{
+    font:20px Rajdhani,sans-serif;
+    color:#1037B6;
+    font-weight: 1000;
+}
+.long{
+    font:16px Rubik,sans-serif;
+    color:#616670;
+}
+
+
+.hover-effect {
+    border: 20px solid transparent; /* Initial transparent border */
+    transition: border-color 0.3s ease-in-out; /* Smooth transition for the hover effect */
+  }
+  
+  .hover-effect:hover {
+    border-color: blue; /* Change the border to blue on hover */
+   
+  }
+  

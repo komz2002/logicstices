@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+
+.client{
+    color:blue;
+    margin-top:5rem;
+    font:18px Rajdhani, sans-serif;
+    font-weight:bold;
+}
+.deliver{
+    color:black;
+    font:48px Rajdhani, sans-serif;
+    font-weight:800
+}
+.name{
+    font:24px Rajdhani, sans-serif;
+    color:#121212;
+    font-weight:bold;
+
+}
+.cris{
+    gap:2rem;
+    justify-content: space-between;
+}
+.bx{
+    background-color: blue;
+    width:100%;
+}
+.sol{
+    color:#FFFFFF;
+    font:48px Rajdhani,sans-serif;
+    font-weight:bold;
+}
+.Lor{
+    font:16px Rubik,sans-serif;
+    color:#FFFFFF;
+
+}
+.field{
+    outline: none !important;
+    border:none;
+}
+.dary{
+    height:3rem;
+    margin-bottom: 2rem;
+    width:auto;
+    margin-right: 1rem;;
+    
+}
+.movie{
+    font:16px Rubik,sans-serif;
+    color:#616670;
+}
+
+
