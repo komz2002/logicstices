@@ -1,4 +1,4 @@
-// src/components/CountUp.js
+
 import React, { useEffect, useState } from 'react';
 
 const CountUp = ({ endValue }) => {
@@ -6,8 +6,8 @@ const CountUp = ({ endValue }) => {
 
   useEffect(() => {
     let start = 0;
-    const duration = 5000; // Duration of the animation in milliseconds
-    const stepTime = 10; // Time interval between each step in milliseconds
+    const duration = 5000; 
+    const stepTime = 10; 
     const stepCount = Math.ceil(duration / stepTime);
     const stepValue = endValue / stepCount;
 

@@ -54,13 +54,13 @@ function Seven() {
   <div className="container aa">
     <div className="row">
       <div className="col-lg-6 col-md-12 mb-4">
-        <div className="sol">Logistics Solutions for Success</div>
+        <div className="sol m-1">Logistics Solutions for Success</div>
         <div className="Lor">Lorem Ipsum is simply dummy text of the printing</div>
       </div>
       <div className="col-lg-6 col-md-12">
         <div className="form-box p-4">
           <form>
-            <div className="d-flex flex-column flex-sm-row mb-3 bg-white align-items-center">
+            <div className="d-flex flex-column flex-sm-row mb-3 bg-white align-items-center ebox">
               <input 
                 type="email" 
                 id="email" 

@@ -4,6 +4,9 @@
 .get{
   font:24px,Rajdhani,sans-serif;
   color:white;
+  text-decoration: none;
+  
+  
 }
 
 
@@ -27,4 +30,10 @@ background-blend-mode: overlay;
 
 .blog-image-1:hover {
   background-color: rgba(0, 0, 0, 0.245);
+}
+
+.book{
+  height:2rem;
+  width:2rem;
+
 }

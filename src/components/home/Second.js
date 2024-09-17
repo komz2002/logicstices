@@ -52,7 +52,7 @@ Made Easy In Touch</h2>
       <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
         <Card style={{ width: '100%' }} className="position-relative">
           <div className="image-container position-relative">
-            <Card.Img variant="top" className="boat" src="https://cdn-icons-png.flaticon.com/128/1018/1018573.png" />
+            <Card.Img variant="top" className="boat" src="https://cdn-icons-png.flaticon.com/128/3063/3063456.png"/>
             <Link to="/services">
       <Button 
         className="arrow-button position-absolute" 
@@ -70,7 +70,6 @@ Made Easy In Touch</h2>
             </Card.Text>
           </Card.Body>
         </Card>
-      
       </div>
 
       <div className="col-lg-4 col-md-6 col-sm-12 mb-4">

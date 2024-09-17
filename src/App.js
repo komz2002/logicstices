@@ -6,12 +6,14 @@ import Services from "./components/Services/Services.js";
 import Contact from "./components/Contact/Contact.js";
 import Product from './components/Products/Product'; 
 import Blog from './components/Blog/Blog'; 
-
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Aboutus from "./components/About/Aboutus.js";
 import Testimonials from "./components/Testimonials/Testimonials.js";
 import Faqs from "./components/Testimonials/Faqs.js";
 import Blogdetails from "./components/Blog/Blogdetails";
+import Location from "./components/Footer/Location.js";
+import Privacy from "./components/Privacy.js";
+
 
 
 export default function App() {
@@ -28,6 +30,8 @@ export default function App() {
            <Route path="Faq's" element={<Faqs/>} />
            <Route path="OurBlog" element={<Blog/>} />
            <Route path="Blogdetails"element={<Blogdetails/>}/>
+           <Route path="Location" element={<Location />} />
+           <Route path="Privacy" element={<Privacy/>} />
         </Route>
       </Routes>
     </Router>

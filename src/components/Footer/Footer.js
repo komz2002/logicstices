@@ -1,5 +1,10 @@
 import React from 'react'
 import '../styles/Footer.css';
+import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
+import { FaInstagram, FaTwitter } from 'react-icons/fa';
+
 
 
 function Footer() {
@@ -11,89 +16,74 @@ function Footer() {
       <div className="container">
         <div className="row">
         <div className="col-lg-3">
-          <h3 className="get">Get Free Link</h3>
-            <p className="para"> Software Deveopment</p>
-            <p className="para">Data Analytics</p>
-            <p className="para">IT Consulting</p>
-            <p className="para">UI/UX design</p>
+        <h1 className="get">
+      <Link to="/location" style={{ textDecoration: 'none', color: 'white' }}>Location</Link>
+    </h1>
+          <p className="para"> Our Logistics</p>
+          <p className="para">3304 Reedy Drive
+            Elkhart,</p><p> Indiana 46514</p>
+          <p className="para">(866) 847-8330</p>
+            <p>(574) 262-9525</p>
             </div>
       <div className="col-lg-3">
-        <h3 className="get">Contact</h3>
-        <p className="para">Lorem Ipsum is simply is dumi omy is text dummy text.</p>
+        <h1 className="get">
+      <Link to="/About" style={{ textDecoration: 'none', color: 'white' }}>About</Link></h1>
+        <p className="para">Our Story
+        </p>
         <p className="para">
-        info@example.com</p>
-        <p className="para">6391 Elgin St. Celina, 10299</p>
+        EQ United</p>
+        <p className="para">EQ Systems</p>
         <p className="para">
-        (629) 555-0129</p>
+        Customer Reviews
+      </p>
+      <Link to="/privacy" style={{ textDecoration: 'none', color: 'white' }}>privacy</Link>
       </div>
-      <div className="col-lg-3 align-items-center">
-        <h3 className="get">Recent Blog</h3>
-      <div className="blog-data d-flex gap-3">
-  <img src="https://itcroctheme.com/nocimon/nocimon-html/assets/img/footer/footer-one__recent-blog__img1.jpg" alt="Blog" className="blog-image" />
-  
-  january 11, 2023
-The standard chunk of Lorem Ipsum
-  </div>
-  <div className="blog-data d-flex gap-3 mt-2">
-  <img src="https://itcroctheme.com/nocimon/nocimon-html/assets/img/footer/footer-one__recent-blog__img1.jpg" alt="Blog" className="blog-image" />
-  january 11, 2023
-The standard chunk of Lorem Ipsum
-  </div>
-</div>
-<div className="col-lg-3 align-items-center">
-  <h3 className="get">photo Gallery</h3>
-      <div className="blog-data d-flex gap-3">
-  <img src="https://itcroctheme.com/nocimon/nocimon-html/assets/img/footer/footer-widget__photo-gallery-img-1.jpg" alt="Blog" className="blog-image-1 "/>
+      <div className="col-lg-3">
+        <h1 className="get">Learn More</h1>
+        <p className="para">Leonard’s Guide</p>
+        <p className="para">Industry Net</p>
+<p className="para">Camelot 3PL Software</p>
+      
+      </div>
+     
+      <div className="col-lg-3">
+        <h1 className="get">
+      <Link to="/Contact" style={{ textDecoration: 'none', color: 'white' }}>Contact with us</Link></h1>
+      <div>
+      <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+        <FaFacebook className="book m-3" />
+      </a>
 
-  <img src="https://itcroctheme.com/nocimon/nocimon-html/assets/img/footer/footer-widget__photo-gallery-img-2.jpg" alt="Blog" className="blog-image-2" />
-  </div>
-  <div className="blog-data d-flex gap-3 mt-2">
-  <img src="https://itcroctheme.com/nocimon/nocimon-html/assets/img/footer/footer-widget__photo-gallery-img-4.jpg" alt="Blog" className="blog-image-3" />
-  <img src="https://itcroctheme.com/nocimon/nocimon-html/assets/img/footer/footer-widget__photo-gallery-img-3.jpg" alt="Blog" className="blog-image-4" />
+      <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+        <FaLinkedin className="book m-3" />
+      </a>
+      <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+        <FaInstagram className="book m-3" /> 
+      </a>
+      <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+        <FaTwitter className="book m-3" /> 
+      </a>
+    </div>
+      </div>
 </div>
-<div className="blog-data d-flex gap-3 mt-2">
-  <img src="https://itcroctheme.com/nocimon/nocimon-html/assets/img/footer/footer-widget__photo-gallery-img-5.jpg" alt="Blog" className="blog-image-5" />
-  <img src="https://itcroctheme.com/nocimon/nocimon-html/assets/img/footer/footer-widget__photo-gallery-img-6.jpg" alt="Blog" className="blog-image-6" />
 </div>
-</div>
-</div>
-</div>
- 
   <div className="head">
-        <div className="info">
-          
-        </div>
-        <div className="main2">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-icon">
-            <i className="fab fa-facebook-f"></i>
-          </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-icon">
-            <i className="fab fa-instagram"></i>
-          </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-icon">
-            <i className="fab fa-twitter"></i>
-          </a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="social-icon">
-            <i className="fab fa-linkedin-in"></i>
-          </a>
-        </div>
+      <div className="info">
+      </div>
       </div>
       <div className="conatiner-fluid">
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
-            © Yoursitename 2023 | Nocimon, All Rights Reserved.
+            ©Yoursitename 2023 | Nocimon, All Rights Reserved.
             </div>
             <div className="col-lg-4 ak d-flex gap-3 ">
   <span className="">Trams & Condition</span>
-  <span className="">Privacy Policy</span>
+  <Link to="/privacy" style={{ textDecoration: 'none', color: 'white' }}>privacy</Link>
   <span className="">Contact Us</span>
 </div>
-
-
-
-          </div>
-      </div>
+</div>
+</div>
 </div>
 </div>
 

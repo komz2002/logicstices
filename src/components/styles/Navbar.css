@@ -1,9 +1,5 @@
-/* General styles */
-.head {
-    background-color:blue;
-    padding: 10px 0;
-  }
-  
+
+
   .info {
     display: flex;
     justify-content: space-between;
@@ -26,7 +22,7 @@
     width: 150px;
   }
   
-  /* Responsive Styles */
+
   @media (max-width: 991px) {
     .info {
       display: none;
@@ -57,12 +53,9 @@
 
 
   }
-
-
-  /* styles/Navbar.css */
 .bg-body-tertiary {
-  background-color: #f8f9fa; /* Set background color */
-  height: 70px; /* Set a fixed height */
+  background-color: #f8f9fa;
+  height: 70px;
   display: flex;
   align-items: center; 
 }

@@ -16,9 +16,6 @@
     font-weight: 1000;
 
 }
-
-
-
 .position-relative {
     position: relative;
   }
@@ -55,6 +52,7 @@
     color:black;
     font:32px Rajdhani,Sans-serif;
     font-weight:bold;
+    margin-left:2.5rem;
   }
   .kom{
     color:#616670;

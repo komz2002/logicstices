@@ -8,51 +8,12 @@ import {
 import { LinkContainer } from "react-router-bootstrap";
 import "./styles/Navbar.css";
 import { Link } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const CustomNavbar = () => {
   return (
     <>
-      <div className="head">
-        <div className="info d-none d-lg-flex justify-content-between">
-          <div className="info-item">info@example.com</div>
-          <div className="info-item">6391 Elgin St. Celina, 10299</div>
-          <div className="info-item">(629) 555-0129</div>
-        </div>
-        <div className="main2 d-flex justify-content-end">
-          <a
-            href="https://facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social-icon"
-          >
-            <i className="fab fa-facebook-f"></i>
-          </a>
-          <a
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social-icon"
-          >
-            <i className="fab fa-instagram"></i>
-          </a>
-          <a
-            href="https://twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social-icon"
-          >
-            <i className="fab fa-twitter"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social-icon"
-          >
-            <i className="fab fa-linkedin-in"></i>
-          </a>
-        </div>
-      </div>
       <BootstrapNavbar expand="lg" className="bg-body-tertiary">
         <Container>
           <BootstrapNavbar.Brand as={Link} to="/">
@@ -71,7 +32,6 @@ const CustomNavbar = () => {
               <LinkContainer to="/about">
                 <Nav.Link className="navi">About Us</Nav.Link>
               </LinkContainer>
-
               <LinkContainer to="/services">
                 <Nav.Link className="navi">Services</Nav.Link>
               </LinkContainer>
